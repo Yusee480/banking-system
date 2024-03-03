@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to Our Banking System</h1>
+    <h2>Deposit Money</h2>
+    <input type="number" id="depositAmount" placeholder="Enter amount to deposit">
+    <button onclick="deposit()">Deposit</button>
+
+    <h2>Withdraw Money</h2>
+    <input type="number" id="withdrawAmount" placeholder="Enter amount to withdraw">
+    <button onclick="withdraw()">Withdraw</button>
+
+    <h2>Transfer Money</h2>
+    <input type="number" id="transferAmount" placeholder="Enter amount to transfer">
+    <input type="text" id="receiverName" placeholder="Receiver's Name">
+    <input type="text" id="receiverAccount" placeholder="Receiver's Account Number">
+    <button onclick="transfer()">Transfer</button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
